@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:orderInCategory="200" android:title="Rate Us" app:showAsAction="0" />
+	<item android:id="false" android:orderInCategory="300" android:title="More Apps" app:showAsAction="0" />
+	<item android:icon="res/drawable/ic_refresh.png" android:id="false" android:title="Reload" app:showAsAction="1" />
+</menu>

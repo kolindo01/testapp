@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="33" android:versionName="2.3.12" package="com.popularbrowser.app">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application android:theme="null" android:label="All Social Networks" android:icon="res/mipmap-anydpi-v26/ic_launcher.xml" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="res/mipmap-anydpi-v26/ic_launcher_round.xml">
+		<activity android:theme="null" android:label="All Social Networks" android:name="ma.almisbah.allsocialnetwork.Home">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="null" android:label="All Social Networks" android:name="ma.almisbah.allsocialnetwork.Browse" />
+		<meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+		<meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>
